@@ -15,10 +15,12 @@ Fast
 
 ## React
 
-Create react app
-View Library
-Proptypes
-Renders into div, can be composed with everything (Hello Stack)
+* Create react app
+* View Library
+* Proptypes
+* Renders into html element
+  * Different frameworks can be integrated
+  * Hello Stack
 
 +++
 
@@ -53,16 +55,16 @@ Structure folders by feature not type e.g. reducers
 Reducer
 Immutability
 
----
++++
 
 Redux Saga
 Side effects
 
----
++++
 
 Recompose
 
-+++
+---
 
 ## Build
 
@@ -72,6 +74,8 @@ Dev-Server vs production build
 ---
 
 ## Javascript
+
++++
 
 ### ES6
 
@@ -107,29 +111,32 @@ Husky
 
 ## Testing
 
++++
+
+### Test JS
+
 Jest, test watch, vscode plugin demonstrieren
 
 +++
 
-Test JS
+### Test view
 
-+++
-
-Test view
 Enzyme: Do not mount
 
 +++
 
-Test reducer
+###Test reducer
 
 +++
 
-Test styles
+### Test styles
+
 React storybook
 
 +++
 
-Integration test
+### Integration Test
+
 Puppeteer
 Json-server
 
@@ -137,17 +144,19 @@ Json-server
 
 ## Styling
 
-Sass
-Postcss
-BEM
-Flexbox, CSS Grid
-Mediaqueries, Responsive Webdesign
-Styled components
+* Sass
+* Postcss
+* BEM
+* Flexbox
+* CSS Grid
+* Mediaqueries
+* Responsive Webdesign
+* Styled components
 
 ---
 
 ## Notes and TODO
 
-Define Goals of the workshop
-Motivation for chapters
-React Redux App walkthrough: TODO or Realworld or Create React App
+* Define Goals of the workshop
+* Motivation for chapters
+* React Redux App walkthrough: TODO or Realworld or Create React App
