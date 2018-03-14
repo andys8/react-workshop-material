@@ -28,6 +28,12 @@ JSX
 
 +++
 
+## Lifecycle
+
+<https://reactjs.org/docs/react-component.html>
+
++++
+
 State
 
 +++
@@ -144,6 +150,7 @@ JS is valid typescript
 ## Debugger
 
 * Chrome Extensions for React and Redux
+* [Demo Redux Dev Tools](http://zalmoxisus.github.io/examples/todomvc/)
 * Debugger in browser or editor
 
 ---
@@ -211,3 +218,4 @@ React Storybook
   * TODO App: <https://codesandbox.io/s/github/reactjs/redux/tree/master/examples/todos>
   * Realworld: <https://stackblitz.com/edit/react-redux-realworld>
 * Egghead react redux
+* State vs Props
