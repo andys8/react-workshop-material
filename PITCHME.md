@@ -49,17 +49,12 @@ State
 
 ## The Elm architecture
 
++++
 ![Elm Architecure](assets/elm-architecture.svg)
 +++
-![Elm Architecure](assets/redux-architecture.png)
+![Redux Animation](assets/redux.gif)
 +++
-![Elm Architecure](assets/redux.gif)
-
----?image=assets/elm-architecture.svg
----?image=assets/redux-architecture.png
----?image=assets/redux.gif
-
-+++
+![Redux Architecture](assets/redux-architecture.png)
 
 ---
 
