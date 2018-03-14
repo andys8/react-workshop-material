@@ -219,3 +219,4 @@ React Storybook
   * Realworld: <https://stackblitz.com/edit/react-redux-realworld>
 * Egghead react redux
 * State vs Props
+* Information, websites, videos, newsletter, meetups, books
