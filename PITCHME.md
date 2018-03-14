@@ -36,6 +36,7 @@ State
 * Generic componets
 * Reusability
 * Avoid information leaks
+* <https://www.youtube.com/watch?v=xBa0_b-5XDw>
 
 +++
 
@@ -48,12 +49,21 @@ State
 
 ## The Elm architecture
 
+![Elm Architecure](assets/elm-architecture.svg)
++++
+![Elm Architecure](assets/redux-architecture.png)
++++
+![Elm Architecure](assets/redux.gif)
+
++++
+
 ---
 
 ## Redux
 
 * Reducer
 * Immutability
+* Alternative: Mobx
 
 +++
 
@@ -68,6 +78,8 @@ Recompose
 
 ## Build
 
+* Node
+* NPM
 * Webpack
 * Dev-Server vs production build
 
@@ -116,8 +128,24 @@ JS is valid typescript
 * Currying Pointfree
 * Ramda
 * Maybe / Option
+* Lens
 * Validation monad
 * Fantasyland Spec
+
+---
+
+## Editor
+
+* VS Code
+* IDEA
+* Atom
+
+---
+
+## Debugger
+
+* Chrome Extensions for React and Redux
+* Debugger in browser or editor
 
 ---
 
@@ -161,7 +189,10 @@ React Storybook
 * Sass
 * Postcss
 * BEM
-* Styled component
+
++++
+
+### Styled components
 
 +++
 
@@ -177,6 +208,7 @@ React Storybook
 * Define Goals of the workshop
 * Motivation for chapters
 * React Redux App walkthrough
-  * TODO App
-  * Realworld
-  * Create React App
+  * Counter: <https://codesandbox.io/s/github/reactjs/redux/tree/master/examples/counter>
+  * TODO App: <https://codesandbox.io/s/github/reactjs/redux/tree/master/examples/todos>
+  * Realworld: <https://stackblitz.com/edit/react-redux-realworld>
+* Egghead react redux
