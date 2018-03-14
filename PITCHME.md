@@ -55,6 +55,10 @@ State
 +++
 ![Elm Architecure](assets/redux.gif)
 
+---?image=assets/elm-architecture.svg
+---?image=assets/redux-architecture.png
+---?image=assets/redux.gif
+
 +++
 
 ---
