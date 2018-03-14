@@ -4,8 +4,8 @@
 
 ## Goals
 
-Testing
-Fast
+* Testing
+* Fast
 
 ---
 
@@ -32,17 +32,17 @@ State
 
 +++
 
-Functional stateless components
-Generic componets
-Reusability
-Avoid information leaks
+* Functional stateless components
+* Generic componets
+* Reusability
+* Avoid information leaks
 
 +++
 
 ### Structure and Modularity
 
-Functional Components vs stateful or connected components
-Structure folders by feature not type e.g. reducers
+* Functional Components vs stateful or connected components
+* Structure folders by feature not type e.g. reducers
 
 ---
 
@@ -52,13 +52,13 @@ Structure folders by feature not type e.g. reducers
 
 ## Redux
 
-Reducer
-Immutability
+* Reducer
+* Immutability
 
 +++
 
-Redux Saga
-Side effects
+* Redux Saga
+* Side effects
 
 +++
 
@@ -68,8 +68,8 @@ Recompose
 
 ## Build
 
-Webpack
-Dev-Server vs production build
+* Webpack
+* Dev-Server vs production build
 
 ---
 
@@ -79,9 +79,9 @@ Dev-Server vs production build
 
 ### ES6
 
-Babel
-import/export
-ES6 Syntax
+* Babel
+* import/export
+* ES6 Syntax
 
 +++
 
@@ -93,17 +93,18 @@ JS is valid typescript
 
 ### Functional Programming
 
-Currying Pointfree
-Ramda
-Maybe / Option
-Validation monad
-Fantasyland Spec
+* Currying Pointfree
+* Ramda
+* Maybe / Option
+* Validation monad
+* Fantasyland Spec
 
 ---
 
 ## Static Code Analysis
 
-Eslint: Airbnb, "Best Practices" für react
+* Eslint: Airbnb
+* "Best Practices" für react
 
 Husky
 
@@ -115,7 +116,9 @@ Husky
 
 ### Test JS
 
-Jest, test watch, vscode plugin demonstrieren
+* Jest
+* Test watcher
+* vscode plugin demo
 
 +++
 
@@ -125,20 +128,20 @@ Enzyme: Do not mount
 
 +++
 
-###Test reducer
+### Test reducer
 
 +++
 
 ### Test styles
 
-React storybook
+React Storybook
 
 +++
 
 ### Integration Test
 
-Puppeteer
-Json-server
+* Puppeteer
+* Json-server
 
 ---
 
