@@ -16,29 +16,43 @@
 
 ## React
 
-* Create react app
-* View Library
++++
+
+Why React?
+
++++
+
+### View Library
+
 * Renders into html element
-  * Different frameworks can be integrated
-  * Hello Stack
+* Different frameworks can be integrated
+* Hello Stack
 
 +++
 
-## JSX
+### JSX
+
+```jsx
+const element = (
+  <h1 className="greeting">
+    Hello, world!
+  </h1>
+);
+```
+
+```js
+const element = React.createElement(
+  'h1',
+  {className: 'greeting'},
+  'Hello, world!'
+);
+```
 
 +++
 
-## Lifecycle
+### Functional Component
 
-<https://reactjs.org/docs/react-component.html>
-
-+++
-
-## State
-
-State vs Props
-
-PropTypes
+![Functional Component](assets/component-functional.png)
 
 +++
 
@@ -46,7 +60,23 @@ PropTypes
 * Generic componets
 * Reusability
 * Avoid information leaks
-* [Talk: Smells In React Apps - JSConf.Asia 2018](https://www.youtube.com/watch?v=xBa0_b-5XDw)
+
+### Component (with state)
+
+![Class Component](assets/component-class.png)
+
++++
+
+* state vs props
+* proptypes
+* Lifecycle: <https://reactjs.org/docs/react-component.html>
+
+
++++
+
+Talk: Smells In React Apps - JSConf.Asia 2018
+
+![Video Smells](https://www.youtube.com/watch?v=xBa0_b-5XDw)
 
 +++
 
@@ -70,24 +100,24 @@ PropTypes
 
 ## Redux
 
-* Reducer
-* Immutability
 * Alternative: Mobx
-
-+++
-
-* Redux Saga
-* Side effects
-
-+++
-
-Recompose
+* Reducer
+* Immutability:
+  * `Object.assign`
+  * Spread: `{...obj}`
+  * Ramda
 
 +++
 
 ### Example
 
 [Counter](https://codesandbox.io/s/github/reactjs/redux/tree/master/examples/counter)
+
++++
+
+* Redux Saga
+* Side effects
+* Recompose
 
 ---
 
@@ -96,9 +126,14 @@ Recompose
 * Node
 * NPM
 * Webpack
-* Dev-Server vs production build
+* Dev server vs production build
+* create-react-app
 
 +++
+
+### package.json
+
++++?code=src/example-package.json&lang=json
 
 ## Static Code Analysis
 
@@ -136,27 +171,6 @@ Husky
 
 JS is valid typescript
 
-+++
-
-### Functional Programming
-
-* Currying Pointfree
-* Ramda
-* Maybe / Option
-* Lens
-* Validation monad
-* Fantasyland Spec
-
-+++
-
-#### Brian Lonsdorf / Dr. Boolean
-
-<https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript>
-
-+++
-
-![Book Mostly Adequate Guide to FP](assets/mostly-adequate-guide.png)
-
 ---
 
 ## Editor
@@ -186,25 +200,29 @@ JS is valid typescript
 
 ### Test JS
 
-* Jest
-* Test watcher
-* vscode plugin demo
+Jest
 
-+++
-
-### Test view
-
-Enzyme: Do not mount
+![VS Code Jest Demo](assets/vscode-jest.gif)
 
 +++
 
 ### Test reducer
 
+<https://redux.js.org/recipes/writing-tests>
+
++++
+
+### Test view
+
+Enzyme - [DEMO](http://airbnb.io/enzyme/)
+
+Snapshot testing in jest
+
 +++
 
 ### Test styles
 
-React Storybook
+React Storybook - [DEMO](https://storybook.js.org/examples/)
 
 +++
 
@@ -231,6 +249,33 @@ React Storybook
 * CSS Grid
 * Mediaqueries
 * Responsive Webdesign
+
+---
+
+## Functional Programming
+
+* Currying Pointfree
+* Ramda
+* Maybe / Option
+* Lens
+* Validation monad
+* Fantasyland Spec
+
++++
+
+### Jeremy Fairbank - Functional Programming Basics in ES6
+
+![Video](https://www.youtube.com/watch?v=HvMemAgOw6I)
+
++++
+
+### Brian Lonsdorf / Dr. Boolean
+
+<https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript>
+
++++
+
+![Book Mostly Adequate Guide to FP](assets/mostly-adequate-guide.png)
 
 ---
 
