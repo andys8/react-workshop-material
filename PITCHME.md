@@ -208,6 +208,12 @@ Jest
 
 ### Test reducer
 
++++?code=src/reducer.test.js&lang=js
+
+<https://medium.com/@netxm/testing-redux-reducers-with-jest-6653abbfe3e1>
+
++++
+
 <https://redux.js.org/recipes/writing-tests>
 
 +++
@@ -254,8 +260,8 @@ React Storybook - [DEMO](https://storybook.js.org/examples/)
 
 ## Functional Programming
 
-* Currying Pointfree
 * Ramda
+* Currying and Pointfree notation
 * Maybe / Option
 * Lens
 * Validation monad
