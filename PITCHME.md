@@ -2,14 +2,15 @@
 
 ---
 
-## Goals
-
-* Testing
-* Fast
-
----
-
 ## Agenda
+
+* React
+* Redux
+* Build and Tooling
+* Language
+* Tests
+* Styling
+* Codebase
 
 ---
 
@@ -17,14 +18,13 @@
 
 * Create react app
 * View Library
-* Proptypes
 * Renders into html element
   * Different frameworks can be integrated
   * Hello Stack
 
 +++
 
-JSX
+## JSX
 
 +++
 
@@ -34,7 +34,11 @@ JSX
 
 +++
 
-State
+## State
+
+State vs Props
+
+PropTypes
 
 +++
 
@@ -42,7 +46,7 @@ State
 * Generic componets
 * Reusability
 * Avoid information leaks
-* <https://www.youtube.com/watch?v=xBa0_b-5XDw>
+* [Talk: Smells In React Apps - JSConf.Asia 2018](https://www.youtube.com/watch?v=xBa0_b-5XDw)
 
 +++
 
@@ -78,6 +82,12 @@ State
 +++
 
 Recompose
+
++++
+
+### Example
+
+[Counter](https://codesandbox.io/s/github/reactjs/redux/tree/master/examples/counter)
 
 ---
 
@@ -137,6 +147,16 @@ JS is valid typescript
 * Validation monad
 * Fantasyland Spec
 
++++
+
+#### Brian Lonsdorf / Dr. Boolean
+
+<https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript>
+
++++
+
+![Book Mostly Adequate Guide to FP](assets/mostly-adequate-guide.png)
+
 ---
 
 ## Editor
@@ -145,17 +165,22 @@ JS is valid typescript
 * IDEA
 * Atom
 
----
++++
 
-## Debugger
+### Debug
 
 * Chrome Extensions for React and Redux
-* [Demo Redux Dev Tools](http://zalmoxisus.github.io/examples/todomvc/)
 * Debugger in browser or editor
+
++++
+
+#### Demo Dev Tools
+
+[Demo Redux Dev Tools](http://zalmoxisus.github.io/examples/todomvc/)
 
 ---
 
-## Testing
+## Tests
 
 +++
 
@@ -209,14 +234,18 @@ React Storybook
 
 ---
 
-## Notes and TODO
+## Information
 
-* Define Goals of the workshop
-* Motivation for chapters
-* React Redux App walkthrough
-  * Counter: <https://codesandbox.io/s/github/reactjs/redux/tree/master/examples/counter>
-  * TODO App: <https://codesandbox.io/s/github/reactjs/redux/tree/master/examples/todos>
-  * Realworld: <https://stackblitz.com/edit/react-redux-realworld>
-* Egghead react redux
-* State vs Props
-* Information, websites, videos, newsletter, meetups, books
+* Documentation: React, Redux
+* Egghead: [React/Redux](https://egghead.io/courses/getting-started-with-redux)
+* Talks JSConf, ReactConf, ReactEurope
+* Meetups: JS, JS the language, Frontend
+* Newsletter: Javascript Weekly, React Status, Frontend Focus
+* Twitter
+
+---
+
+## Codebase Walkthrough
+
+* [TODO List](https://codesandbox.io/s/github/reactjs/redux/tree/master/examples/todos)
+* [Realworld.io](https://stackblitz.com/edit/react-redux-realworld)
