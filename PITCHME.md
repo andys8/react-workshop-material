@@ -242,7 +242,12 @@ Json-server
 
 * Sass
 * Postcss
-* BEM
+
++++
+
+### [BEM](http://getbem.com)
+
+Block Element Modifier methodology
 
 +++
 
@@ -271,9 +276,7 @@ Json-server
 
 +++
 
-### Sanctuary
-
-* [Sanctuary](https://sanctuary.js.org)
+### [Sanctuary](https://sanctuary.js.org)
 
 * Maybe
 * Either
@@ -290,7 +293,7 @@ Json-server
 
 +++
 
-### Functional Programming Basics in ES6
+### Functional Programming in ES6
 
 Jeremy Fairbank
 
