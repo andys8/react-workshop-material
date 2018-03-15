@@ -26,25 +26,21 @@ Why React?
 
 * Renders into html element
 * Different frameworks can be integrated
-* Hello Stack
+* [Hello Stack](https://andys8.github.io/hello-stack)
 
 +++
 
 ### JSX
 
 ```jsx
-const element = (
-  <h1 className="greeting">
-    Hello, world!
-  </h1>
-);
+const element = <h1 className="greeting">Hello, world!</h1>;
 ```
 
 ```js
 const element = React.createElement(
-  'h1',
-  {className: 'greeting'},
-  'Hello, world!'
+  "h1",
+  { className: "greeting" },
+  "Hello, world!"
 );
 ```
 
@@ -61,22 +57,23 @@ const element = React.createElement(
 * Reusability
 * Avoid information leaks
 
++++
+
 ### Component (with state)
 
 ![Class Component](assets/component-class.png)
 
 +++
 
-* state vs props
-* proptypes
-* Lifecycle: <https://reactjs.org/docs/react-component.html>
-
+* State vs Props
+* Proptypes
+* [Lifecycle](https://reactjs.org/docs/react-component.html)
 
 +++
 
 Talk: Smells In React Apps - JSConf.Asia 2018
 
-![Video Smells](https://www.youtube.com/watch?v=xBa0_b-5XDw)
+![Video Smells](https://www.youtube.com/embed/xBa0_b-5XDw)
 
 +++
 
@@ -89,6 +86,8 @@ Talk: Smells In React Apps - JSConf.Asia 2018
 
 ## The Elm architecture
 
++++
+![Heartwarming Architecture](assets/heartwarming.jpg)
 +++
 ![Elm Architecure](assets/elm-architecture.svg)
 +++
@@ -109,7 +108,7 @@ Talk: Smells In React Apps - JSConf.Asia 2018
 
 +++
 
-### Example
+### Redux Example
 
 [Counter](https://codesandbox.io/s/github/reactjs/redux/tree/master/examples/counter)
 
@@ -134,6 +133,7 @@ Talk: Smells In React Apps - JSConf.Asia 2018
 ### package.json
 
 +++?code=src/example-package.json&lang=json
++++
 
 ## Static Code Analysis
 
@@ -198,9 +198,7 @@ JS is valid typescript
 
 +++
 
-### Test JS
-
-Jest
+### Test Framework Jest
 
 ![VS Code Jest Demo](assets/vscode-jest.gif)
 
@@ -209,11 +207,11 @@ Jest
 ### Test reducer
 
 +++?code=src/reducer.test.js&lang=js
-
-<https://medium.com/@netxm/testing-redux-reducers-with-jest-6653abbfe3e1>
-
 +++
 
+#### Reducer Test Examples
+
+<https://medium.com/@netxm/testing-redux-reducers-with-jest-6653abbfe3e1>
 <https://redux.js.org/recipes/writing-tests>
 
 +++
@@ -234,8 +232,9 @@ React Storybook - [DEMO](https://storybook.js.org/examples/)
 
 ### Integration Test
 
-* Puppeteer
-* Json-server
+Puppeteer
+
+Json-server
 
 ---
 
@@ -249,6 +248,8 @@ React Storybook - [DEMO](https://storybook.js.org/examples/)
 
 ### Styled components
 
++++?code=src/styled-components.jsx&lang=jsx
+
 +++
 
 * Flexbox
@@ -260,24 +261,46 @@ React Storybook - [DEMO](https://storybook.js.org/examples/)
 
 ## Functional Programming
 
-* Ramda
-* Currying and Pointfree notation
-* Maybe / Option
+* [Ramda](http://ramdajs.com)
+  * [Why Ramda](http://fr.umio.us/why-ramda/)
+  * [Thinking Ramda](http://randycoulman.com/blog/categories/thinking-in-ramda)
 * Lens
-* Validation monad
-* Fantasyland Spec
+* Function Composition
+* Currying and pointfree notation
+  * [Why Curry Helps](https://hughfdjackson.com/javascript/why-curry-helps)
 
 +++
 
-### Jeremy Fairbank - Functional Programming Basics in ES6
+### Sanctuary
 
-![Video](https://www.youtube.com/watch?v=HvMemAgOw6I)
+* [Sanctuary](https://sanctuary.js.org)
+
+* Maybe
+* Either
+* List
+* Validation
+
++++
+
+### Fantasyland
+
+![Fantasyland Dependecies](assets/fantasyland.png)
+
+[Fantasyland Spec](https://github.com/fantasyland/fantasy-land)
+
++++
+
+### Functional Programming Basics in ES6
+
+Jeremy Fairbank
+
+![Video](https://www.youtube.com/embed/HvMemAgOw6I)
 
 +++
 
 ### Brian Lonsdorf / Dr. Boolean
 
-<https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript>
+[Professor Frisby Introduces Composable Functional JavaScript](https://egghead.io/courses/professor-frisby-introduces-composable-functional-javascript)
 
 +++
 
